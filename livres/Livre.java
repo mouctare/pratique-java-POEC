@@ -3,10 +3,10 @@ package livres;
 
 
 public class Livre {
-    public String titre;
-    public String auteur;
-    public String anneEdition;
-    public String numeroISBN;
+    private String titre;
+    private String auteur;
+    private String anneEdition;
+    private String numeroISBN;
  
 
    public Livre(String titre,String auteur, String anneEdition, String numeroISBN){
@@ -23,5 +23,30 @@ public class Livre {
    public void afficheTitreEtAuteur(){
     System.out.println("Le titre du livre est "  + titre  + " il a été écrit par " + auteur);
 }
-    
+  
+public String getTitre(){
+    return titre;
+}
+public void setTitre(String titre){
+    this.titre = titre;
+}
+public String getAuteur(){
+    return auteur;
+}
+public void setAuteur(String auteur){
+    this.auteur = auteur;
+}
+public String getAnneEdition(){
+    return auteur;
+}
+public void setAnneEdition(String anneEdition){
+    this.anneEdition = anneEdition;
+}
+public String getNumeroISBN(){
+    return numeroISBN;
+}
+public void setNumeroISBN(String numeroISBN){
+    this.numeroISBN = numeroISBN;
+}
+
 }
