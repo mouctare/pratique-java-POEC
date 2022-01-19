@@ -7,17 +7,18 @@ class Animal{
 
      
     public Animal(){};
+
     public Animal(String prenom){
-    this.prenom = prenom;
+        this.prenom = prenom;
     };
     public Animal(String prenom , int age){
-    this(prenom);
-    this.age = age;
+        this(prenom);
+        this.age = age;
     };
 
    public Animal(String prenom, String couleur, int age){
-      this(prenom, age);
-       this.couleur = couleur;
+        this(prenom, age);
+        this.couleur = couleur;
       
    }
     public void presentation(){

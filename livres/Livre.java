@@ -33,7 +33,7 @@ public class Livre {
  }
 
  public String afficheLivre(){
-    return this.getTitre() + " "  + this.getAuteur()+ " " + this.getAnneEdition() + " " + this.getNumeroISBN()+ " "  + this.getEditeur().afficheEditeur();
+    return this.getTitre() + " de "  + this.getAuteur()+ " " + this.getAnneEdition() + " " + this.getNumeroISBN()+ " "  + this.getEditeur().afficheEditeur();
 
  }
 

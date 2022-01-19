@@ -1,7 +1,7 @@
 package livres;
 
 
-class Editeur{
+public class Editeur{
     private String nom;
     private String anneeCreation;
 
